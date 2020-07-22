@@ -1,0 +1,36 @@
+title: 프로그래머가 되기 위해서
+description: '내가 프로그래머가 되기 위해서 해나가는 과정'
+permalink: ':title/'
+baseurl: '/to_be_programmer'
+url: 'https://thirdsense3.github.io'
+site-twitter: #if your site has a twitter account, enter it here
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+# Author Settings
+author: myu1231
+#author-img: david-freeman.jpg # add your photo
+#about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+#social-twitter: # add your Twitter handle
+#social-facebook: # add your Facebook handle
+#social-github: artemsheludko # add your Github handle
+#social-linkedin: # add your Linkedin handle
+social-email: miyu2095@gmail.com
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
