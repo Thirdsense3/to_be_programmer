@@ -9,16 +9,16 @@ site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: myu1231
-author-img: Socrates.jpg # add your photo
+author-img: /assets/img/Socrates.jpg # add your photo
 about-author: I am a Student to Programmer.
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
+social-github: thirdsense3 # add your Github handle
 #social-linkedin: # add your Linkedin handle
 social-email: miyu2095@gmail.com
 
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: Thirdsense # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
