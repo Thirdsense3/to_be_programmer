@@ -5,12 +5,12 @@ baseurl: '/to_be_programmer'
 url: 'https://thirdsense3.github.io'
 site-twitter: #if your site has a twitter account, enter it here
 # google_analytics: 'UA-XXXXXX-X'
-#disqus_shortname: 'Thirdsense'
+# disqus_shortname: 'your-disqus-name'
 
 # Author Settings
 author: myu1231
-author-img: socrates.jpg # add your photo
-about-author: 프로그래머가 되기 위해선 무엇을 해야할까.
+author-img: Socrates.jpg # add your photo
+#about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: thirdsense3 # add your Github handle
@@ -18,7 +18,7 @@ social-github: thirdsense3 # add your Github handle
 social-email: miyu2095@gmail.com
 
 # Disqus
-discus-identifier: Thirdsense # add your discus identifier
+discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
