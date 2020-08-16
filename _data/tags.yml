@@ -2,11 +2,15 @@ jekyll :
   name: jekyll
   description: False
   cover: assets/built/images/background-frontend.jpg
-python :
-  name: python
+Data_Structure :
+  name: Data_Structure
   description: False
   cover: assets/built/images/background-frontend.jpg
-economy :
-  name: economy
+Cpp :
+  name: C++
+  description: False
+  cover: assets/built/images/background-frontend.jpg
+Java :
+  name: Java
   description: False
   cover: assets/built/images/background-frontend.jpg

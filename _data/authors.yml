@@ -5,7 +5,7 @@ Thirdsense :
   url:
   bio: <a href="https://blog.naver.com/myu1231">Thinking Different</a>
                         # 회사정보
-  picture: assets/built/images/economy-author-logo.jpg   # author image
+  picture: assets/built/images/author-logo.jpg   # author image
   facebook:             # facebook ID
   twitter:              # twitter ID
   cover: False
