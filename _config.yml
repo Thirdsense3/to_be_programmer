@@ -34,7 +34,7 @@ paginate: 20
 language: 'en-uk'
 # 언어 설정
 
-url: https://thirdsense3.github.io
+url: https://Thirdsense3.github.io
 # Google Search Console에서 사용하는 sitemap.xml 생성시
 # 이 url key값이 존재하지 않으면 sitemap.xml이
 # 정상적으로 생성되지 않는다.
@@ -60,10 +60,10 @@ logo_dark:
 favicon: assets/built/images/favicon.jpg
 # favicon으로 사용할 image
 
-production_url: https://thirdsense3.github.io
+production_url: https://Thirdsense3.github.io/
 # 최종적으로 blog가 운영될 url
 
-source_url: https://thirdsense3.github.io/to_be_programmer/
+source_url: https://github.com/Thirdsense3/to_be_programmer/
 # blogmaker(jekyll source folder)에 대한 github repository
 
 # Social info
@@ -110,8 +110,8 @@ feed:
 safe: False
 lsi: False
 
-username: moon9342
-repo: GitHubPageMaker
+username: Thirdsense3
+repo: to_be_programmer
 # username : travis-ci와 연동하는 github의 username
 # repo: travis-ci와 연동하는 github의 repository이름
 # https://github.com/<username>/<repository>
@@ -121,7 +121,7 @@ branch: master
 
 relative_source:
 
-destination: ./output/
+destination: ./Output/
 # compile된 결과가 생성되는 폴더
 # 이 폴더안의 내용이 우리가 운영하는 블로그 내용이 컴파일되서 들어간다.
 # 이 폴더안의 내용을 github repository(https://username.github.io)에 push
