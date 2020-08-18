@@ -72,6 +72,7 @@ namespace :site do
             git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.';
             git push -f https://$GITHUB_TOKEN@github.com/#{USERNAME}/#{USERNAME}.github.io.git #{DESTINATION_BRANCH} --quiet ;
          fi"
+        # 강제로 push -f 해놓은 상태
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
   end
