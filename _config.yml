@@ -145,7 +145,7 @@ exclude:
   - assets/images
   - _posts/angular
   - _posts/et-cetera
-  - _posts/python
+#  - _posts/python
   - _posts/typescript
 #  - _posts/jekyll
   - _posts/iot

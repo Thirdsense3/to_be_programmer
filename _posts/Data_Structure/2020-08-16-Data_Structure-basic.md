@@ -7,9 +7,11 @@ title: 자료구조란 무엇인가
 date: 2020-08-16 15:00:00
 tags: Data_Structure
 class: post-template
-subclass: 'post'
+subclass: 'post tag-Data_Structure'
 author: Thirdsense
 ---
+
+{% include Data_Structure-table-of-contents.html %}
 
 
 자료구조란 무엇인가(Data Structure)
