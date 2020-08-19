@@ -45,13 +45,13 @@
     <meta property="og:title" content="To Be Programmer" />
     <meta property="og:description" content="프로그래머가 되기 위한 나의 노력" />
     <meta property="og:url" content="http://localhost:4000/" />
-    <meta property="og:image" content="http://localhost:4000/assets/built/images/blog-cover1.png" />
+    <meta property="og:image" content="http://localhost:4000/assets/built/images/blog-cover1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="To Be Programmer" />
     <meta name="twitter:description" content="프로그래머가 되기 위한 나의 노력" />
     <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/blog-cover1.png" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/built/images/blog-cover1.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="To Be Programmer" />
     <meta name="twitter:site" content="@" />
@@ -71,7 +71,7 @@
     "url": "http://localhost:4000/",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/built/images/blog-cover1.png",
+        "url": "http://localhost:4000/assets/built/images/blog-cover1.jpg",
         "width": 2000,
         "height": 666
     },
@@ -105,7 +105,7 @@
 into the {body} of the default.hbs template -->
 
 <!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/assets/built/images/blog-cover1.png) ">
+<header class="site-header outer " style="background-image:  url(/assets/built/images/blog-cover1.jpg) ">
     <div class="inner">
         <div class="site-header-content">
             <h1 class="site-title">
@@ -122,9 +122,10 @@ into the {body} of the default.hbs template -->
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
-    <li class="nav-Data_Structure" role="menuitem"><a href="/tag/Data_Structure/">Data_Structure</a></li>
-    <li class="nav-Cpp" role="menuitem"><a href="/tag/Cpp/">C++</a></li>
-    <li class="nav-Java" role="menuitem"><a href="/tag/Java/">Java</a></li>
+    <li class="nav-datastructure" role="menuitem"><a href="/tag/datastructure/">자료 구조</a></li>
+    <li class="nav-cpp" role="menuitem"><a href="/tag/cpp/">C++</a></li>
+    <li class="nav-acmicpc" role="menuitem"><a href="/tag/acmicpc/">백준</a></li>
+    <li class="nav-java" role="menuitem"><a href="/tag/java/">Java</a></li>
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
     </li>
@@ -159,65 +160,17 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/Data_Structure-control-statement">
+            <a class="post-card-image-link" href="/datastructure-basic">
                 <div class="post-card-image" style="background-image: url(/assets/built/images/Data_Structure-logo.jpg)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/Data_Structure-control-statement">
+            <a class="post-card-content-link" href="/datastructure-basic">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Data_structure</span>
-                            
-                        
-                    
-
-                    <h2 class="post-card-title">Data_Structure</h2>
-                </header>
-                <section class="post-card-excerpt">
-                    
-                        <p>자료구조란 무엇인가(Data Structure)
-
-</p>
-                    
-                </section>
-            </a>
-            <footer class="post-card-meta">
-                
-                    
-                        
-                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="Seokhyun Myung" />
-                        
-                        <span class="post-card-author">
-                            <a href="/author/Thirdsense/">Seokhyun Myung</a>
-                        </span>
-                    
-                
-                <span class="reading-time">
-                    
-                    
-                      1 min read
-                    
-                </span>
-            </footer>
-        </div>
-    </article>
-
-    <article class="post-card home-template">
-        
-            <a class="post-card-image-link" href="/Data_Structure-basic">
-                <div class="post-card-image" style="background-image: url(/assets/built/images/Data_Structure-logo.jpg)"></div>
-            </a>
-        
-        <div class="post-card-content">
-            <a class="post-card-content-link" href="/Data_Structure-basic">
-                <header class="post-card-header">
-                    
-                        
-                            
-                                <span class="post-card-tags">Data_structure</span>
+                                <span class="post-card-tags">Datastructure</span>
                             
                         
                     
@@ -260,7 +213,7 @@ into the {body} of the default.hbs template -->
     <article class="post-card home-template">
         
             <a class="post-card-image-link" href="/cpp-basic.md">
-                <div class="post-card-image" style="background-image: url(/assets/images/bus.jpg)"></div>
+                <div class="post-card-image" style="background-image: url(/assets/built/images/background-frontend.jpg)"></div>
             </a>
         
         <div class="post-card-content">
@@ -278,7 +231,7 @@ into the {body} of the default.hbs template -->
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>##C++ 연습용 텍스트 출력
+                        <p>C++ 연습용 텍스트 출력
 </p>
                     
                 </section>
@@ -306,20 +259,26 @@ into the {body} of the default.hbs template -->
 
     <article class="post-card home-template">
         
-            <a class="post-card-image-link" href="/gettysburg-address">
-                <div class="post-card-image" style="background-image: url(/assets/images/bus.jpg)"></div>
+            <a class="post-card-image-link" href="/acmicpc-Num_5419">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/baekjoon.png)"></div>
             </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/gettysburg-address">
+            <a class="post-card-content-link" href="/acmicpc-Num_5419">
                 <header class="post-card-header">
                     
+                        
+                            
+                                <span class="post-card-tags">Acmicpc</span>
+                            
+                        
+                    
 
-                    <h2 class="post-card-title">Gettysburg Address</h2>
+                    <h2 class="post-card-title">5419번 북서풍 - Platinum 4</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
-                        <p>Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
+                        <p>북서풍 5419번
 
 </p>
                     
@@ -328,11 +287,18 @@ into the {body} of the default.hbs template -->
             <footer class="post-card-meta">
                 
                     
+                        
+                        <img class="author-profile-image" src="/assets/built/images/author-logo.jpg" alt="Seokhyun Myung" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/Thirdsense/">Seokhyun Myung</a>
+                        </span>
+                    
                 
                 <span class="reading-time">
                     
                     
-                      1 min read
+                      3 min read
                     
                 </span>
             </footer>

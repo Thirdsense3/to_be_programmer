@@ -51,7 +51,7 @@ title: To Be Programmer
 description: 프로그래머가 되기 위한 나의 노력
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
-cover: assets/built/images/blog-cover1.png
+cover: assets/built/images/blog-cover1.jpg
 # blog home에 표시될 blog cover image.
 
 logo:
@@ -143,11 +143,3 @@ exclude:
   - node_modules
   - assets/css
   - assets/images
-  - _posts/angular
-  - _posts/et-cetera
-#  - _posts/python
-  - _posts/typescript
-#  - _posts/jekyll
-  - _posts/iot
-  - _posts/r
-  - _posts/economy

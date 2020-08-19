@@ -1,67 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T18:05:52+09:00</updated><id>http://localhost:4000/</id><title type="html">To Be Programmer</title><subtitle>프로그래머가 되기 위한 나의 노력</subtitle><entry><title type="html">Data_Structure</title><link href="http://localhost:4000/Data_Structure-control-statement" rel="alternate" type="text/html" title="Data_Structure" /><published>2020-08-18T04:00:00+09:00</published><updated>2020-08-18T04:00:00+09:00</updated><id>http://localhost:4000/Data_Structure-control-statement</id><content type="html" xml:base="http://localhost:4000/Data_Structure-control-statement">&lt;p&gt;자료구조란 무엇인가(Data Structure)&lt;/p&gt;
-
-&lt;p&gt;사전적인 의미는 자료(Data)의 집합의 의미하며, 각 원소들이 논리적으로 정의된 규칙에 의해 나열되며 자료에 대한 처리를 효율적으로 수행할 수 있도록 자료를 구분하여 표현한 것&lt;/p&gt;
-
-&lt;p&gt;자료구조의 선택 기준&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;자료의 처리 시간&lt;/li&gt;
-  &lt;li&gt;자료의 크기&lt;/li&gt;
-  &lt;li&gt;자료의 활용 빈도&lt;/li&gt;
-  &lt;li&gt;자료의 갱신 정도&lt;/li&gt;
-  &lt;li&gt;프로그램의 용이성&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;자료의 처리를 보다 효율적으로 하기 위해서 위와 같은 사항을 고려하여 선택, 사용해야 합니다.&lt;/p&gt;
-
-&lt;p&gt;자료구조의 특징&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;효율성&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;앞서 설명 했듯이 자료구조를 사용하는 목적은 효율적인 데이터의 관리 및 사용입니다. 따라서 적절한 자료구조를 선택하여 사용한다면 업무의 효율이 올라갈 것입니다. 한가지 예를 들어보자면 검색에 대한 알고리즘을 구현할때, 데이터의 양이 많다면 순차 검색(Linear Search)를 사용하는 것 보다 이분 검색(Binary Search)를 활용하는것이 더 효율 적일 것입니다. 왜냐하면 학생이라는 테이블에 학생에 대한 데이터가 100만개 있다고 할때, 순차 검색으로 데이터를 검색하게 되면 운이 좋을때는 1번의 연산으로 찾을 수 있겠지만, 운이 없을경우에는 100만번의연산을 거쳐야 할 것입니다. 이에 반해 이분 검색은 연산의 횟수가 훨씬 줄어들죠. 이와같이 목적에 맞는 자료구조를 사용하는것이 효율적입니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;추상화&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;추상화란 복잡한 자료, 모듈, 시스템 등으로 부터 핵심적인 개념만 간추려 내는 것입니다. 자료구조를 구현할 때 중요한 것은 어느 시점에 데이터를 삽입할 것이며, 어느 시점에 이러한 데이터를 어떻게 사용할것인지에 대해서 초점을 맞출수 있기 때문에 구현 외적인 부분에 더 시간을 쏟을 수 있습니다. 알고리즘 자체에는 중점을 두지 않습니다.&lt;/p&gt;
-
-&lt;p&gt;마찬가지로 자료구조 내부의 구현은 중요하지 않습니다. 어떻게 구현했는지 보다 어떻게 사용해야 하는지를 알고 있어야 합니다.&lt;/p&gt;
-
-&lt;p&gt;예를들어 스택(Stack)의 경우 먼저 들어간것이 나중에 나오는 FILO(First In Last Out)의 형태를 가지고 있습니다. 그리고 push() 함수를 이용해서 데이터를 삽입할 수 있고, pop() 함수를 이용해서 데이터를 추출할 수 있습니다. 그 함수 내부 구현이 어떻게 되었는지는 중요하지 않습니다. 사람마다 다른 코드를 작성할 것이고, 사용 언어, 개발 툴등 환경적인 변수에 의해서 다른 코드가 나올 것이기 때문에 추상적인 개념에 대해서만 이해하고 있다면 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;재사용성&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;자료구조를 설계할때 특정 프로그램에서만 동작하게 설계하지는 않습니다. 다양한 프로그램에서 동작할 수 있도록 범용성 있게 설계하기 때문에 해당 프로젝트가 아닌 다른 프로젝트에서도 사용할 수 있습니다.&lt;/p&gt;
-
-&lt;p&gt;자료구조의 분류&lt;/p&gt;
-
-&lt;p&gt;자료구조는 크게 선형 자료구조와 비선형 자료구조로 나뉩니다. 선형 자료구조의 경우 데이터가 일렬로 나열되어 있는 것을 뜻하고, 비 선형 자료구조는 특정한 형태를 띄고 있는 것을 뜻하는데, 각각에 해당하는 자료구조는 아래와 같습니다.&lt;/p&gt;
-
-&lt;p&gt;선형구조&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;배열(Array)&lt;/li&gt;
-  &lt;li&gt;연결 리스트(Linked List)&lt;/li&gt;
-  &lt;li&gt;스택(Stack)&lt;/li&gt;
-  &lt;li&gt;큐(Queue)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;비선형 구조&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;트리(Tree)&lt;/li&gt;
-  &lt;li&gt;그래프(Graph)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;출처: https://andrew0409.tistory.com/148 [코인하는 프로그래머]&lt;/p&gt;</content><author><name>Seokhyun Myung</name></author><category term="Data_Structure" /><summary type="html">자료구조란 무엇인가(Data Structure)</summary></entry><entry><title type="html">자료구조란 무엇인가</title><link href="http://localhost:4000/Data_Structure-basic" rel="alternate" type="text/html" title="자료구조란 무엇인가" /><published>2020-08-17T00:00:00+09:00</published><updated>2020-08-17T00:00:00+09:00</updated><id>http://localhost:4000/Data_Structure-basic</id><content type="html" xml:base="http://localhost:4000/Data_Structure-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;자료구조 포스트 목차 &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-19T20:05:20+09:00</updated><id>http://localhost:4000/</id><title type="html">To Be Programmer</title><subtitle>프로그래머가 되기 위한 나의 노력</subtitle><entry><title type="html">자료구조란 무엇인가</title><link href="http://localhost:4000/datastructure-basic" rel="alternate" type="text/html" title="자료구조란 무엇인가" /><published>2020-08-17T00:00:00+09:00</published><updated>2020-08-17T00:00:00+09:00</updated><id>http://localhost:4000/datastructure-basic</id><content type="html" xml:base="http://localhost:4000/datastructure-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;자료구조 포스트 목차 &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./Data_Structure-basic&quot;&gt;자료구조 (1) - Data_Structure 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./Data_Structure-control-statement&quot;&gt;자료구조 (2) - Data_Structure&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./datastructure-basic&quot;&gt;자료구조 (1) - Data_Structure 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./datastructure-control-statement&quot;&gt;자료구조 (2) - Data_Structure&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;자료구조란 무엇인가(Data Structure)&lt;/p&gt;
@@ -124,8 +64,149 @@
   &lt;li&gt;그래프(Graph)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;출처: https://andrew0409.tistory.com/148 [코인하는 프로그래머]&lt;/p&gt;</content><author><name>Seokhyun Myung</name></author><category term="Data_Structure" /><summary type="html">자료구조 포스트 목차 자료구조 (1) - Data_Structure 기본 자료구조 (2) - Data_Structure</summary></entry><entry><title type="html">C++ Post 메모</title><link href="http://localhost:4000/cpp-basic.md" rel="alternate" type="text/html" title="C++ Post 메모" /><published>2020-06-16T04:14:00+09:00</published><updated>2020-06-16T04:14:00+09:00</updated><id>http://localhost:4000/cpp-basic.md</id><content type="html" xml:base="http://localhost:4000/cpp-basic.md">&lt;p&gt;##C++ 연습용 텍스트 출력&lt;/p&gt;</content><author><name>Seokhyun Myung</name></author><category term="Cpp" /><summary type="html">##C++ 연습용 텍스트 출력</summary></entry><entry><title type="html">Gettysburg Address</title><link href="http://localhost:4000/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>http://localhost:4000/gettysburg-address</id><content type="html" xml:base="http://localhost:4000/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+&lt;p&gt;출처: https://andrew0409.tistory.com/148 [코인하는 프로그래머]&lt;/p&gt;</content><author><name>Seokhyun Myung</name></author><category term="datastructure" /><summary type="html">자료구조 포스트 목차 자료구조 (1) - Data_Structure 기본 자료구조 (2) - Data_Structure</summary></entry><entry><title type="html">C++ Post 메모</title><link href="http://localhost:4000/cpp-basic.md" rel="alternate" type="text/html" title="C++ Post 메모" /><published>2020-06-16T04:14:00+09:00</published><updated>2020-06-16T04:14:00+09:00</updated><id>http://localhost:4000/cpp-basic.md</id><content type="html" xml:base="http://localhost:4000/cpp-basic.md">&lt;h2 id=&quot;c-연습용-텍스트-출력&quot;&gt;C++ 연습용 텍스트 출력&lt;/h2&gt;</content><author><name>Seokhyun Myung</name></author><category term="cpp" /><summary type="html">C++ 연습용 텍스트 출력</summary></entry><entry><title type="html">5419번 북서풍 - Platinum 4</title><link href="http://localhost:4000/acmicpc-Num_5419" rel="alternate" type="text/html" title="5419번 북서풍 - Platinum 4" /><published>2020-06-16T04:14:00+09:00</published><updated>2020-06-16T04:14:00+09:00</updated><id>http://localhost:4000/acmicpc-Num_5419</id><content type="html" xml:base="http://localhost:4000/acmicpc-Num_5419">&lt;h2 id=&quot;북서풍-5419번&quot;&gt;북서풍 5419번&lt;/h2&gt;
 
-&lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
+&lt;p&gt;’’’
+시간 제한
+‘’’&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;1초&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.&lt;/p&gt;</content><author><name>abraham</name></author><summary type="html">Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.</summary></entry></feed>
+&lt;p&gt;’’’
+메모리 제한
+‘’’&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;256MB&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;’’’
+Problem
+‘’’&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;강한 북서풍이 불고 있다. 이 뜻은 동쪽과 남쪽 사이의 모든 방향으로 항해할 수 있다는 뜻이다. &lt;strong&gt;북쪽이나 서쪽으로 항해하는 것은 불가능하다.&lt;/strong&gt;
+작은 섬이 여러 개 있는 바다가 있다. 섬은 좌표 평면의 한 점으로 나타낼 수 있다. y 좌표가 증가하는 방향은 북쪽, x좌표가 증가하는 방향은 동쪽이다. 북서풍을 타고 항해할 수 있는 섬의 쌍의 수를 구하는 프로그램을 작성하시오.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;’’’
+Input
+‘’’&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;첫째 줄에 테스트 케이스의 개수가 주어진다.
+각 테스트 케이스의 첫째 줄에는 섬의 수 n (1 ≤ n ≤ 75000)이 주어진다. 다음 n개 줄에는 각 섬의 좌표 x_i, y_i가 주어진다. 두 섬의 좌표가 같은 경우는 없다. (-10^9 ≤ x_i, y_i ≤ 10^9)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;’’’
+Output
+‘’’&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;각 테스트 케이스에 대해서, 북서풍을 타고 항해할 수 있는 섬의 쌍의 수를 출력한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;가장 먼저 생각했던 것은 항해는 동쪽과 남쪽으로만 항해가 가능하므로, x의 크기는 증가, y의 크기는 감소해야 한다고 생각했다.&lt;/p&gt;
+
+&lt;p&gt;그런데 x,y의 좌표가 -10^9 ~ 10^9까지 가능하므로 x,y의 값을 전부 좌표로 표현한다음에 세그먼트 트리 기법이나 브루트 포스 기법은 메모리 초과 및 시간 초과가 분명했다.&lt;/p&gt;
+
+&lt;p&gt;그래서 입력받은 섬의 x, y 좌표 값을 x좌표를 기준으로 정렬한 다음에, y좌표를 좌표압축 기법을 사용해 상대적인 값으로 나타내고 이를 이용해서 세그먼트 트리 기법을 이용하기로 했다.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;algorithm&amp;gt;
+#include &amp;lt;vector&amp;gt;
+#include &amp;lt;cstring&amp;gt;
+#define MAX_N 100000
+
+using namespace std;
+
+pair&amp;lt;int, int&amp;gt; home[MAX_N + 1];
+int n;
+int total;
+long long s, d;
+int x, y;
+int segment[4 * MAX_N]; // y의 좌표를 세그먼트 트리의 인덱스로 만듬
+int y_index[MAX_N];
+
+bool cmp(pair&amp;lt;int, int&amp;gt; x, pair&amp;lt;int, int&amp;gt; y) {
+	if (x.first == y.first) {
+		return x.second &amp;gt; y.second;
+	}
+
+	return x.first &amp;lt; y.first;
+}
+
+int update(int pos, int val, int node, int x, int y) { // x ~ y 인덱스까지의 세그먼트 트리 인덱스값 업데이트
+
+	if (y &amp;lt; pos || pos &amp;lt; x) { // 범위를 벗어났을 경우, 노드 값 그대로 반환
+		return segment[node];
+	}
+
+	if (x == y) { // 리프 노드인 경우, 해당 세그먼트 값 업데이트
+		return segment[node] = val;
+	}
+
+	int mid = (x + y) &amp;gt;&amp;gt; 1; // 자식 tree size 정의 (산술시프트 이용)
+
+	return segment[node] = update(pos, val, node * 2, x, mid) + update(pos, val, node * 2 + 1, mid + 1, y); // 왼쪽 자식 트리 업데이트 값 + 오른쪽 자식 트리 업데이트 값
+	// 왼쪽 자식의 경우, 인덱스는 부모 인덱스 * 2, x는 부모 x값, y는 mid값
+    // 오른쪽 자식의 경우, 인덱스는 부모 인데스 * 2 + 1, x값은 mid+1, y는 부모 y값
+}
+
+int query(int from, int to, int node, int x, int y) { //  x ~ y 인덱스까지의 노드 쿼리, from ~ to 까지의 인덱스 검색
+
+	if (y &amp;lt; from || to &amp;lt; x) { // x ~ y가 찾으려는 범위를 벗어났으면 0 반환
+		return 0;
+	}
+
+	if (from &amp;lt;= x &amp;amp;&amp;amp; y &amp;lt;= to) { // x ~ y가 찾으려는 범위 내면 세그먼트에 저장된 값 반환
+		return segment[node];
+	}
+
+	int mid = (x + y) &amp;gt;&amp;gt; 1; // 자식 tree size 정의 (산술시프트 이용)
+
+	return query(from, to, node * 2, x, mid) + query(from, to, node * 2 + 1, mid + 1, y); // 왼쪽 자식 쿼리 + 오른쪽 자식 쿼리
+	// 왼쪽 자식의 경우, 인덱스는 부모 인덱스 * 2, x는 부모 x값, y는 mid값
+	// 오른쪽 자식의 경우, 인덱스는 부모 인덱스 * 2 + 1, x값은 mid+1, y는 부모 y값
+}
+
+
+int main(void) {
+
+	scanf(&amp;quot;%d&amp;quot;, &amp;amp;total);
+
+	for (int i = 0; i &amp;lt; total; i++) {
+
+		memset(segment, 0, sizeof(segment));
+		memset(y_index, 0, sizeof(y_index));
+
+		long long cnt = 0;
+
+		scanf(&amp;quot;%d&amp;quot;, &amp;amp;n);
+
+		vector&amp;lt;int&amp;gt; ypos;
+
+		for (int j = 0; j &amp;lt; n; j++) {
+			scanf(&amp;quot;%d%d&amp;quot;, &amp;amp;s, &amp;amp;d);
+			home[j] = { s,d };
+			ypos.push_back(d);
+		}
+
+		sort(home, home + n, cmp);
+		sort(ypos.begin(), ypos.end());
+		ypos.erase(unique(ypos.begin(), ypos.end()), ypos.end()); // 좌표 압축을 위한 중복 값 제거
+
+
+		for (int j = 0; j &amp;lt; n; j++) {
+			int invert_y = lower_bound(ypos.begin(), ypos.end(), home[j].second) - ypos.begin(); // z는 지금 위치한 섬의 y좌표 압축 결과 인덱스
+			cnt += (long long) query(invert_y, n - 1, 1, 0, n - 1); // 쿼리는 지금 위치한 섬으로 올 수 있는 섬들의 갯수를 반환 ---! n-1이 아니라 invert_y가 가질 수 있는 최대 값을 넣어도 가능 !---
+			y_index[invert_y]++; // 압축한 y 인덱스 해당 좌표의 섬 갯수 증가
+			update(invert_y, y_index[invert_y], 1, 0, n - 1); // 세그먼트 트리 값 업데이트
+		}
+
+		printf(&amp;quot;%lld\n&amp;quot;, cnt);
+
+	}
+
+	return 0;
+
+}
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/Thirdsense3/3c8502d1cbaa0ff4bc0ad1705fe9dc2e.js&quot;&gt; &lt;/script&gt;</content><author><name>Seokhyun Myung</name></author><category term="acmicpc" /><summary type="html">북서풍 5419번</summary></entry></feed>

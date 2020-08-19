@@ -1,16 +1,19 @@
-jekyll :
-  name: jekyll
+datastructure :
+  name: datastructure
   description: False
   cover: assets/built/images/background-frontend.jpg
-Data_Structure :
-  name: Data_Structure
+  
+cpp :
+  name: cpp
   description: False
   cover: assets/built/images/background-frontend.jpg
-Cpp :
-  name: C++
+  
+acmicpc :
+  name: acmicpc
   description: False
   cover: assets/built/images/background-frontend.jpg
-Java :
-  name: Java
+  
+java :
+  name: java
   description: False
   cover: assets/built/images/background-frontend.jpg

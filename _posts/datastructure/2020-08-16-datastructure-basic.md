@@ -5,9 +5,9 @@ cover: assets/built/images/Data_Structure-logo.jpg
 navigation: True
 title: 자료구조란 무엇인가
 date: 2020-08-16 15:00:00
-tags: Data_Structure
+tags: [datastructure]
 class: post-template
-subclass: 'post tag-Data_Structure'
+subclass: 'post tag-datastructure'
 author: Thirdsense
 ---
 

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="http://localhost:4000/tag/cpp/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-08-19T18:05:52+09:00</updated>
+  <updated>2020-08-19T20:05:20+09:00</updated>
   <id>http://localhost:4000/tag/cpp/feed.xml</id>
 
   
@@ -37,7 +37,7 @@
       <published>2020-06-16T04:14:00+09:00</published>
       <updated>2020-06-16T04:14:00+09:00</updated>
       <id>http://localhost:4000/cpp-basic.md</id>
-      <content type="html" xml:base="http://localhost:4000/cpp-basic.md">&lt;p&gt;##C++ 연습용 텍스트 출력&lt;/p&gt;</content>
+      <content type="html" xml:base="http://localhost:4000/cpp-basic.md">&lt;h2 id=&quot;c-연습용-텍스트-출력&quot;&gt;C++ 연습용 텍스트 출력&lt;/h2&gt;</content>
 
       
       
@@ -54,11 +54,11 @@
       
 
       
-        <category term="Cpp" />
+        <category term="cpp" />
       
 
       
-        <summary type="html">##C++ 연습용 텍스트 출력</summary>
+        <summary type="html">C++ 연습용 텍스트 출력</summary>
       
 
       
