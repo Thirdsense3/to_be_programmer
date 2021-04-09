@@ -17,3 +17,8 @@ java :
   name: java
   description: False
   cover: assets/built/images/background-frontend.jpg
+
+daily :
+  name : daily
+  description: False
+  cover:  assets/built/images/background-frontend.jpg
