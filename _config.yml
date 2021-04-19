@@ -48,7 +48,7 @@ baseurl: /
 title: To Be Programmer
 # 자신의 blog title.
 
-description: 프로그래머가 되기 위한 나의 노력
+description: 프로그래머가 되기 위한 나의 노력을 담은 블로그
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
 cover: assets/built/images/blog-cover1.jpg
